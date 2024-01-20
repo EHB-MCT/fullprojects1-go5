@@ -23,8 +23,37 @@ body {
 	height: 100%;
 }
 
-#grid p{
+#grid p {
 	border: 1px solid #000;
 	margin: 0;
 	opacity: 0.2;
+}
+
+header {
+	grid-column: 1/13;
+	background-color: red;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+header nav {
+	grid-column: 5/13;
+	background-color: purple;
+
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+header nav ul li {
+	display: inline;
+	padding-left: 10px;
+}
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
 }
