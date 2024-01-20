@@ -2,7 +2,11 @@
 
 nav {
 }
-
+body {
+	background: blue;
+	margin: 0;
+	font font-family: "Arial", sans-serif;
+}
 .wrapper {
 	width: 1200px;
 	margin: 0 auto;
