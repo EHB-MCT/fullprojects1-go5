@@ -1,0 +1,67 @@
+/* BASE LAYOUT FLEXBOX */
+
+.wrapper {
+	display: grid;
+	margin: 0 auto;
+	position: relative;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+#grid {
+	display: grid;
+	position: absolute;
+	top: 0;
+	left: 0;
+	grid-template-columns: repeat(12, 1fr);
+	grid-auto-rows: minmax(100%, auto);
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	padding: 0;
+}
+
+#grid p {
+	border: 1px solid black;
+	margin: 0;
+	opacity: 0.2;
+}
+
+body {
+	background-image: url(../images/schuine_strepen.png);
+	background-repeat: no-repeat;
+	background-size: 15%;
+}
+
+header {
+	grid-column: 1 / 13;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	margin-top: 20px;
+}
+
+footer {
+	grid-column: 1 / 13;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.hero {
+	grid-column: 2 / 6;
+	margin-top: 50px;
+}
+
+.hero-image {
+	grid-column: 7 / 13;
+	margin-top: 50px;
+}
+
+.footer-image {
+	grid-column: 7 / 13;
+	justify-self: end;
+	width: 70%;
+}
+
+.footer-info {
+	grid-column: 3 / 6;
+	align-self: center;
+}
