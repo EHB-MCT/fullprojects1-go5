@@ -10,28 +10,28 @@ header {
 	grid-template-columns: repeat(12, 1fr);
 }
 
-.wrapper {
+/*.wrapper {
 	width: 100%;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	/*grid-template-rows: repeat(10, (minmax(auto)));*/
+	grid-template-rows: repeat(10, (minmax(auto)));
 	margin: 25px;
 	position: relative;
-}
+}*/
 
 
 
 
 header nav {
 	grid-column: 6/13;
-	/*background-color: purple;*/
+	/*background-color: purple;
     align-self: center;
 }
 
 header nav ul {
-	margin: 20px;
-	padding: 20px;
+	margin: 0;
+	padding: 0;
 	float: right;
 }
 
@@ -46,10 +46,10 @@ header nav ul li a {
 	text-decoration: none;
 }
 
-/*logo*/
+logo*/
 .logo {
 	grid-column: 3/6;
 	/*background-color: green;*/
 	align-self: center;
 }
-
+*/
