@@ -1,12 +1,26 @@
 /* TYPOGRAPHY */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
 
 h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 36px;
+    color: #8B0834;
 }
 
 h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 24px;
+    color: #8B0834;
 }
 
 h3 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 18px;
+    color: #8B0834;
 }
 
 h4 {
@@ -19,7 +33,39 @@ h6 {
 }
 
 p {
+    font-size: 14px;
+    font-weight: 400px;
 }
 
 a {
+    color: #8B0834;
+}
+
+a:hover {
+    color: #000;
+}
+
+.uitgelicht {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.btn {
+    font-weight: 500;
+    text-decoration: none;
+    color: #CECECE;
+    font-size: 14px;
+}
+
+.btn:hover {
+    color: #8B0834;
+}
+
+nav {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+footer {
+    font-size: 12px;
 }

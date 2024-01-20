@@ -1,19 +1,14 @@
 /* NAVIGATION */
 
-nav {
-}
-body {
-	background: blue;
-	margin: 0;
-	font font-family: "Arial", sans-serif;
-}
+/* nav {}*/
+
+
 .wrapper {
-	width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(10, minmax(100px, auto));
-	position: relative;
+	position: ;
 }
 
 #grid {
@@ -32,15 +27,15 @@ body {
 
 header {
 	grid-column: 1/13;
-	background-color: red;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 }
 
-header nav {
-	grid-column: 5/13;
-	background-color: purple;
 
+header nav {
+	grid-column: 6/13;
+	/*background-color: purple;*/
+    align-self: center;
 }
 
 header nav ul {
@@ -52,15 +47,18 @@ header nav ul {
 header nav ul li {
 	display: inline;
 	padding-left: 10px;
+	padding-right: 20px;
 }
 
 header nav ul li a {
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 }
 
-header img {
-	grid-column: 1/5;
-	background-color: green;
+/*logo*/
+.logo {
+	grid-column: 3/6;
+	/*background-color: green;*/
 	align-self: center;
 }
+
