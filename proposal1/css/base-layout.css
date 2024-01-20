@@ -57,3 +57,9 @@ header nav ul li a {
 	color: #fff;
 	text-decoration: none;
 }
+
+header img {
+	grid-column: 1/5;
+	background-color: green;
+	align-self: center;
+}
