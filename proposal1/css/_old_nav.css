@@ -1,0 +1,55 @@
+/* NAVIGATION */
+
+/* nav {}*/
+
+
+
+header {
+	grid-column: 1/13;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	/*grid-template-rows: repeat(10, (minmax(auto)));*/
+	margin: 25px;
+	position: relative;
+}
+
+
+
+
+header nav {
+	grid-column: 6/13;
+	/*background-color: purple;*/
+    align-self: center;
+}
+
+header nav ul {
+	margin: 20px;
+	padding: 20px;
+	float: right;
+}
+
+header nav ul li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+header nav ul li a {
+	color: #000;
+	text-decoration: none;
+}
+
+/*logo*/
+.logo {
+	grid-column: 3/6;
+	/*background-color: green;*/
+	align-self: center;
+}
+
