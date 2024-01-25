@@ -50,7 +50,7 @@ img {
 }
 
 p {
-	margin: 40px 0px;
+	margin: 30px 0px;
 }
 
 h1 {
@@ -94,6 +94,10 @@ h1 {
 	width: 36px;
 }
 
+.fullWidthBlock {
+	grid-column: 2 / 12;
+}
+
 .textblock1,
 .textblock2 {
 	grid-column: 2 / 7;
@@ -102,6 +106,7 @@ h1 {
 
 .imageblock1 {
 	grid-column: 7 / 12;
+	padding: 0px 20px;
 }
 
 .threeColumn1 {
@@ -127,6 +132,28 @@ h1 {
 	background-color: #cecece;
 	border-radius: 25px 0px;
 }
+
+.leefregelsColumn1,
+.leefregelsColumn4,
+.leefregelsColumn7 {
+	grid-column: 2 / 5;
+	padding: 20px;
+}
+
+.leefregelsColumn2,
+.leefregelsColumn5,
+.leefregelsColumn8 {
+	grid-column: 5 / 8;
+	padding: 20px;
+}
+
+.leefregelsColumn3,
+.leefregelsColumn6,
+.leefregelsColumn9 {
+	grid-column: 8 / 11;
+	padding: 20px;
+}
+
 @media screen and (max-width: 600px) {
 	.hero {
 		grid-column: 2 / 12;
