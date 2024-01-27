@@ -1,18 +1,13 @@
 /* BUTTONS */
 
-.btn-primary {
-}
-
-.btn-secondary {
-}
-
 .btn {
 	padding: 15px 30px;
 	background-color: #8b0834;
 	border-radius: 15px 0px;
-	margin: 50px 0px;
+	display: inline-block;
 }
 
 .btn:hover {
 	background-color: #cecece;
 }
+
