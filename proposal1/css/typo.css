@@ -56,6 +56,10 @@ a:hover {
 	color: #000;
 }
 
+ul {
+	line-height: 1.5;
+}
+
 .uitgelicht {
 	font-weight: 500;
 	font-size: 18px;
@@ -85,4 +89,8 @@ a:hover {
 .dropbtn-active {
 	font-weight: 500;
 	font-size: 18px;
+}
+
+.footer-info p {
+	font-size: 12px;
 }

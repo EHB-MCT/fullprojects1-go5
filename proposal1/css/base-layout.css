@@ -5,6 +5,12 @@
 	margin: 0 auto;
 	position: relative;
 	grid-template-columns: repeat(12, 1fr);
+	max-width: 1280px;
+	margin: 0 auto;
+	background-image: url(../images/schuine_strepen.png);
+	background-repeat: no-repeat;
+	background-size: 15%;
+	background-color: white;
 }
 
 #grid {
@@ -27,9 +33,7 @@
 }
 
 body {
-	background-image: url(../images/schuine_strepen.png);
-	background-repeat: no-repeat;
-	background-size: 15%;
+	background-color: #8b0834;
 }
 
 header {
@@ -58,10 +62,11 @@ h1 {
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
+
 ul li:before {
-    content: "\25BA \0020";
+	content: "\25BA \0020";
 	color: #8b0834;
 }
 
@@ -78,6 +83,12 @@ ul li:before {
 	justify-self: end;
 }
 
+.footer-info {
+	grid-column: 2 / 7;
+	align-self: end;
+	margin: 10px;
+}
+
 .footer-image {
 	grid-column: 7 / 13;
 	justify-self: end;
@@ -85,14 +96,8 @@ ul li:before {
 	width: 70%;
 }
 
-.footer-info {
-	grid-column: 3 / 6;
-	align-self: end;
-	margin: 20px;
-}
-
 .footer-info p {
-	margin: 10px 0px;
+	margin: 5px 0px;
 }
 
 .footer-icon {
@@ -168,7 +173,7 @@ ul li:before {
 	padding: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 	.hero {
 		grid-column: 2 / 12;
 	}
@@ -179,7 +184,7 @@ ul li:before {
 	}
 
 	.footer-info {
-		grid-column: 3 / 7;
+		grid-column: 2 / 7;
 	}
 
 	.textblock1 {
