@@ -5,12 +5,13 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow {
-  max-width: 1000px;
+  max-width: 600px;
   position: relative;
   margin: auto;
+
 }
 
-/* Caption text */
+/* Caption text
 .text {
   color: #8b0834;
   font-size: 16px;
@@ -19,8 +20,13 @@ img {vertical-align: middle;}
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
+} */
 
+.imgSlideshow {
+  width: 100%;
+  border: 25px solid #8b0834;
+  border-radius: 80px 0px;
+}
 
 /* The dots/bullets/indicators */
 .dot {
@@ -28,12 +34,12 @@ img {vertical-align: middle;}
   width: 15px;
   margin: 0 2px;
   background-color: #CECECE;
-  border-radius: 25% 0%;
+  border-radius: 30% 0%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
-.active {
+.activeSlideshow {
   background-color: #8b0834;
 }
 
