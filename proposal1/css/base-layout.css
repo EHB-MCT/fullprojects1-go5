@@ -107,7 +107,7 @@ ul li:before {
 	width: 36px;
 }
 
-.aandacht {
+.attention-icon {
 	width: 50px;
 }
 
@@ -115,8 +115,7 @@ ul li:before {
 	grid-column: 2 / 12;
 }
 
-.textblock1,
-.textblock2 {
+.textblock1 {
 	grid-column: 2 / 7;
 	padding: 0px 20px;
 	margin: 10px 0px;
@@ -152,23 +151,17 @@ ul li:before {
 	border-radius: 25px 0px;
 }
 
-.leefregelsColumn1,
-.leefregelsColumn4,
-.leefregelsColumn7 {
+.smallColumn1 {
 	grid-column: 2 / 5;
 	padding: 20px;
 }
 
-.leefregelsColumn2,
-.leefregelsColumn5,
-.leefregelsColumn8 {
+.smallColumn2 {
 	grid-column: 5 / 8;
 	padding: 20px;
 }
 
-.leefregelsColumn3,
-.leefregelsColumn6,
-.leefregelsColumn9 {
+.smallColumn3 {
 	grid-column: 8 / 11;
 	padding: 20px;
 }
@@ -185,6 +178,10 @@ ul li:before {
 
 	.footer-info {
 		grid-column: 2 / 7;
+	}
+
+	.footer-image {
+		width: 90%;
 	}
 
 	.textblock1 {
