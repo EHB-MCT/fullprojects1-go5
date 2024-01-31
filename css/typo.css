@@ -1,0 +1,96 @@
+/* TYPOGRAPHY */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ubuntu:wght@400;500;700&display=swap");
+
+body {
+	font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+	font-family: "Archivo Black", sans-serif;
+	font-size: 36px;
+	color: #8b0834;
+}
+
+h2 {
+	font-family: "Archivo Black", sans-serif;
+	font-size: 24px;
+	color: #8b0834;
+}
+
+h3 {
+	font-family: "Archivo Black", sans-serif;
+	font-size: 18px;
+	color: #8b0834;
+}
+
+h4 {
+	font-family: "Archivo Black", sans-serif;
+	font-size: 16px;
+	color: #8b0834;
+}
+
+h5 {
+	font-family: "Archivo Black", sans-serif;
+	font-size: 16px;
+	color: #8b0834;
+}
+
+h6 {
+	font-family: "Archivo Black", sans-serif;
+	font-size: 16px;
+	color: #8b0834;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 400px;
+	line-height: 1.5;
+}
+
+a {
+	color: #8b0834;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+ul {
+	line-height: 1.5;
+}
+
+.featuredText {
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.btn {
+	font-weight: 500;
+	text-decoration: none;
+	color: #cecece;
+	font-size: 16px;
+}
+
+.btn:hover {
+	color: #8b0834;
+}
+
+.topnav {
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.dropdown .dropbtn {
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.dropbtn-active {
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.footer-info p {
+	font-size: 12px;
+}
